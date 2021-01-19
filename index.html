@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <head>
-    <!--網頁描述-->
     <meta charset="UTF-8"></meta>
-    <!--set up for chinese-->
-    <title>扶持計畫訓練營申請書 - 梁子軒</title>
-</head>
-<body>
-    <h3>申請人 : 梁子軒</h3>
-    <p></p>
-    <h3>H3 MyPicture</h3>
-    <!--h3 is heading size3-->
-    <img src="01.jpg" alt="my sample picture" width="60" height="70"></img>
-    <h3></h3>
-    <hr/>
-    <!--hr 水平線   as same as <hr></hr> -->
-    <img src="01.jpg"alt="my sample picture" width="60" height="70"/>
-    <!--簡寫法-->
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=SRbewm2AUew&t=501s">Youtube</a></li>
-        <li>Facebook</li>
-        <li>PTT</li>
-    </ul>
+    <title>申請書</title>
+    <!--css套件設定在這邊 from line 7-->
+    <!--全部管理在這邊-->
+    background-color:lightgray
+    <style type="text/css">
+    .title{font-weight: bold;font-size:10px}
+    .content{margin-left:10px;
+             background-color: gray;
+             padding:10px;
+             margin-top:10px;
+             margin-bottom:10px;
+             font-size:10px
+             }
+    .keyword{color:red}
+    <!-- .是一定要的！！後面是命名class-->
+    </style>
 
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=SRbewm2AUew&t=501s">Youtube</a></li>
-        <li><A HREF="pages/02.html">About this site</A></li>
-        <li>Facebook</li>
-    </ul>
-    <h3>MLB</h3>                  <!--cellpadding  = spacing-->
-    <table border="1" width="400" cellpadding="5">
-        <!--first row-->
-        <tr>   <!---b  for bold-->
-            <td><b>a</b></td><!--first row first column-->
-            <td>f</td><!--first row second column-->
-            <td>c</td><!--first row third column-->
-        </tr>
-        <!--second row-->
-        <tr>    <!--u for underline-->
-            <td><u>1</u></td><!--second row first column-->
-            <td>2</td><!--second row second column-->
-            <td>3</td><!--second row third column-->
-        </tr>
-        <!--third row-->
-        <tr>
-            <td>4</td><!--second row first column-->
-            <td>5</td><!--second row second column-->
-            <td>6</td><!--second row third column-->
-        </tr>
-    </table>
+</head>
+<body style="background-color: rgb(95, 92, 92);">
+    <div>
+    <h3 class="title">申請人 : 梁子軒</h3>
+    </div>
+    <hr>
+    <div>
+    <h3 class="title">個人簡介</h3>
+    <pre class="content">
+    目前38歲以前是從事業務、採購等工作，會點日英文，因為想要轉行順便補學歷，現在是在中國文化大學夜間部的資管系3年級生，因為成績還不錯所以順利的話可以今年六月提早畢業。
+    本來以為可以邊工作邊讀書，但是因為應付不來的關係，在去年初時把工作辭掉了專心在學業。
+    </pre>
+    </div>
+    <hr>
+    <
+
+    <div class="content">我去公園散步餵<span class="keyword">鴿子</span>。</div>
+    <div class="content">我去公園散步餵鴿子，覺的鴿子好可愛</div>
 </body>
 </html>
