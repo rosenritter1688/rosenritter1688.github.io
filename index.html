@@ -4,37 +4,74 @@
     <title>申請書</title>
     <!--css套件設定在這邊 from line 7-->
     <!--全部管理在這邊-->
-    background-color:lightgray
     <style type="text/css">
-    .title{font-weight: bold;font-size:10px}
+    .body{background-color: rgb(95, 92, 92);}
+    .mainTitle{text-align: center;font-weight: bold;font-size:10px}
+    .header{font-weight: bold;font-size:10px}
     .content{margin-left:10px;
-             background-color: gray;
+             background-color: rgb(95, 92, 92);
              padding:10px;
              margin-top:10px;
              margin-bottom:10px;
              font-size:10px
              }
+    .list{margin-left:10px;
+          background-color: rgb(95, 92, 92);
+          font-size:10px
+          }
     .keyword{color:red}
+    .contentWOpadding{
+             margin-left:10px;
+             background-color: rgb(95, 92, 92);
+             font-size:10px
+             }
     <!-- .是一定要的！！後面是命名class-->
     </style>
 
 </head>
-<body style="background-color: rgb(95, 92, 92);">
+<body class="body">
     <div>
-    <h3 class="title">申請人 : 梁子軒</h3>
+    <h3 class="mainTitle">申請人 : 梁子軒</h3>
     </div>
     <hr>
     <div>
-    <h3 class="title">個人簡介</h3>
-    <pre class="content">
+    <h3 class="header">個人簡介</h3>
+    <p class="content">
     目前38歲以前是從事業務、採購等工作，會點日英文，因為想要轉行順便補學歷，現在是在中國文化大學夜間部的資管系3年級生，因為成績還不錯所以順利的話可以今年六月提早畢業。
-    本來以為可以邊工作邊讀書，但是因為應付不來的關係，在去年初時把工作辭掉了專心在學業。
-    </pre>
+    本來是打算可以邊工作邊讀書，但後面因為應付不來課業的關係，在去年初時把工作辭掉了專心在學業。</p>
     </div>
     <hr>
-    <
-
-    <div class="content">我去公園散步餵<span class="keyword">鴿子</span>。</div>
-    <div class="content">我去公園散步餵鴿子，覺的鴿子好可愛</div>
+    <div>
+    <h3 class="header">想成為軟體工程師的理由</h3>
+    <p class="content">
+    以前讀書時其實也是念資工，但那時年紀輕不懂事沒好好念，現在剛剛好想要轉跑道順便把以前沒完成的學業弄好。
+    </p>
+    </div>
+    <hr>
+    <div>
+    <h3 class="header">為了成為網站工程師所作過得努力</h3>
+    <ul class="content">
+        <li class="list"/>就讀資管部
+        <li class="list"/>學校因為學生人數少網站課程開不成,兩個月前再網站UDEMY買了DJANGO課程,雖然還沒讀完
+        <li class="list"/>雖然資料庫是即將開課的這學期才教但是有自學了點MySQL,您可以看我的github上面python資料夾裡面有MySQL的資料夾，UDEMY也有買了教材但是還沒開始看
+        <li class="list"/>學校python老師讓我知道很多東西要自己上網找資料找答案,作業我是班上少數有教作業的同學的那幾位
+        <li class="list"/>最近開始嘗試練習LINUX系統都用Ubuntu，雖然在學校有教過但是太久沒用有點生疏了
+        <li class="list"/>大概去年七八月因老師建議的關係便開始自學並開始使用GIT
+    </ul>
+    </div>
+    <hr>
+    <h3 class="header">如果能有此榮幸參加此計畫，如何安排學習時間</h3>
+    <p class="content">
+    雖然剩下一學期一週有四個晚上得去學校但是因為幾乎都是營養學分，只有MYSQL比較困難但是有學過點應該也不會有太大的問題才對，自己知道目前的程度太低，我會把中心學習都放在老師您的課程這邊。
+    </p>
+    </div>
+    <hr>
+    <h3 class="header">如果能有此榮幸參加此計畫，預期會碰到的困難和如何去面對解決它?</h3>
+    <p class="contentWOpadding">因為學校python老師的緣故,已經養成上網找資料的習慣,因為老師會故意在講義裡提某個code或功能,沒有講解的關係。所以已經有養成習慣遇到困難會上網站找資料,真的找不到資料解決不了,才會去stack overflow論壇請教別人,目前只在上面問過兩次問題</p>
+    <p class="contentWOpadding"><A HREF="https://stackoverflow.com/users/12709166/bruce-ashbee">我的帳號</A></p>
+    <p class="contentWOpadding">有個問題因為被官掉了所以看不到第一題請看<A HREF="pages/02.html">圖片</A></p>
+    
+    </div>
+    <hr>
 </body>
 </html>
